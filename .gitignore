@@ -1,0 +1,34 @@
+# Build output
+build/
+dist/
+out/
+target/
+
+# Compiled classes
+*.class
+
+# AOF / persistence artifacts
+*.aof
+appendonly.aof
+dump.rdb
+
+# Local configuration (use miniredis.properties.example as a template)
+miniredis.properties
+
+# Logs
+*.log
+logs/
+!bench/results/*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

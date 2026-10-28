@@ -1,0 +1,11 @@
+# Copy this file to miniredis.properties to make it load automatically.
+# Command line arguments override these values.
+# All values are optional; the defaults are shown below.
+
+port=6399
+maxmemory=100000
+appendonly=yes
+aof=appendonly.aof
+appendfsync=everysec
+threads=128
+sweepIntervalMs=100
